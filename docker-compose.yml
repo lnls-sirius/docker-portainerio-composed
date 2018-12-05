@@ -2,6 +2,7 @@ version: '3.4'
 
 services:
   portainer:
+    restart: always
     image: portainer/portainer
     container_name: portainer
     ports:
