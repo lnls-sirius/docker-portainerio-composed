@@ -5,7 +5,11 @@ References: https://portainer.io
 
 ## Run Instructions
 
-### Run container
+### Run container in swarm mode (preferred method)
+
+    docker stack deploy --compose-file=portainer-agent-stack.yml portainer
+
+### Run container in compose mode
 
     docker-compose up -d
 
