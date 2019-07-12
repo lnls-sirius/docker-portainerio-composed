@@ -18,7 +18,7 @@ services:
       - type: volume
         source: portainer_data
         target: /data
-    dns: 10.128.255.6
+    dns: 10.128.255.7
     dns_search: lnls-sirius.com.br
 
 volumes:
